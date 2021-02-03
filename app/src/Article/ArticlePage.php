@@ -11,12 +11,7 @@ use SilverStripe\Forms\DateField;
 use SilverStripe\Forms\TextareaField;
 use SilverStripe\Forms\TextField;
 
-/**
- * Description
- * 
- * @package silverstripe
- * @subpackage mysite
- */
+//conflict yahhh yahhhhh
 class ArticlePage extends Page
 {
     private static $db = [
