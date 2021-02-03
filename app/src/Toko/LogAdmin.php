@@ -11,25 +11,16 @@ use SilverStripe\Admin\ModelAdmin;
  */
 class LogAdmin extends ModelAdmin
 {
-    /**
-     * Managed data objects for CMS
-     * @var array
-     */
+    //this is conflict state make for training
     private static $managed_models = [
         LogStock::class
     ];
-
-    /**
-     * URL Path for CMS
-     * @var string
-     */
+    //this is conflict state make for training
     private static $url_segment = 'log-stock';
 
     /**
      * Menu title for Left and Main CMS
      * @var string
      */
-    private static $menu_title = 'Log Stock';
-
-    
+    private static $menu_title = 'Log Stock Conflict';   
 }
