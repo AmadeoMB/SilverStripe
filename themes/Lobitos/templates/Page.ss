@@ -71,7 +71,7 @@
                     </label>
                     <ul>
                     <% loop $Menu(1) %>
-                        <li style="display:block; color: black" >$MenuTitle</li>
+                        <li style="display:block; color: black">$MenuTitle</li>
                     <% end_loop %>
                     </ul>
                   </nav>
