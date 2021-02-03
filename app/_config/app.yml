@@ -1,0 +1,11 @@
+---
+Name: myconfig
+---
+
+Silverstripe\SiteConfig\:
+  extensions:
+    - SiteConfigExtension
+
+SilverStripe\Control\Email\Email:
+  admin_email:
+    amadeo.9b33@gmail.com: 'Support team'
