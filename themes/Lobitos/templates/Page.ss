@@ -45,7 +45,7 @@
             <div class="anim pulse"><i class="ion-ios-bolt-outline"></i></div>
         </div>
         <div class="preloader-left"></div>
-        <div class="inline-menu-container style2 showx <% if $Blog %>dark <% end_if %>">
+        <div class="inline-menu-container style2 showx dark">
             <% if $SiteConfig.Logo %>
                 <% loop $SiteConfig.Logo %>
                     <a href="$BaseHref"><img alt="Logo" src="$ScaleWidth(150).URL"/></a>
@@ -71,7 +71,7 @@
                     </label>
                     <ul>
                     <% loop $Menu(1) %>
-                        <li style="display:block; color: black">$MenuTitle</li>
+                        <li style="display:block;"><a href="$Link">$MenuTitle</a></li>
                     <% end_loop %>
                     </ul>
                   </nav>
